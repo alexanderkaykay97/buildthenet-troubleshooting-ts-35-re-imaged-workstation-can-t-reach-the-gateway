@@ -1,0 +1,15 @@
+Current configuration : 1842 bytes
+version 15.0
+service timestamps debug datetime msec
+service timestamps log datetime msec
+hostname ARI-SW1
+no ip routing
+!
+interface Ethernet1
+ no shutdown
+ switchport mode access
+!
+interface Ethernet2
+ no shutdown
+ switchport mode access
+end
